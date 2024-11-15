@@ -1,16 +1,15 @@
-# \<repo-navn>
-Beskriv hva repoet inneholder.
+# Introduksjon til bruk av R-pakker for undertrykking og avrunding
 
-## Hvorfor er ikke dette repoet public?
-Denne overskriften og tilhørende avsnitt slettes hvis repoet er public. (Husk at for public repoer finnes det [krav](https://github.com/statisticsnorway/adr/blob/main/docs/0006-aapen-kildekode-i-ssb.md#kriterier-for-%C3%A5pen-kildekode) som må oppfylles.)
+Kurset vil gi en introduksjon til enkel bruk av R-pakkene 
+[GaussSuppression](https://CRAN.R-project.org/package=GaussSuppression)
+og 
+[SmallCountRounding](https://CRAN.R-project.org/package=SmallCountRounding)
+til bruk for konfidensialitetsbeskyttelse av tabeller med henholdsvis undertrykking (prikking) og avrunding
 
-I følge [Retningslinjer for åpen kildekode i SSB](https://github.com/statisticsnorway/adr/blob/main/docs/0006-aapen-kildekode-i-ssb.md)
-gjelder følgende:
 
-> "All kode i SSB skal som standard være allment tilgjengelig (åpen kildekode). Det
-gjøres unntak for kode som beskriver SSB spesifikke infrastrukturdetaljer,
-konfigurasjon av applikasjoner og annen kode som teamet vurderer til å ikke være åpen
-grunnet sikkerhetsmessige risikoer. ... Kodelagre som vurderes til ikke å være åpne
-skal ha et avsnitt i README hvor beslutningen begrunnes så konkret som mulig."
+**Arbeidsform:** 
+Forelesninger og øvelser i R.
 
-\<Begrunnelse for hvorfor dette repoet ikke er public>
+**Målgruppe:** 
+Medarbeidere som jobber eller skal jobbe med produksjon av statistikktabeller. Det forutsettes at deltakerne har litt forkunnskaper i R. Det forutsettes også at deltakerne på forhånd kjenner litt til konfidensialitetsproblemstillingene i frekvens- og volumtabeller.
+
