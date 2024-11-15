@@ -202,7 +202,6 @@ cython_debug/
 .Rapp.history
 
 # Session Data files
-.RData
 .RDataTmp
 
 # User-specific files
